@@ -21,7 +21,6 @@ print(len(data))
 plt.figure(figsize=(12,6))
 
 sb.countplot(x = "category", data = data)
-sb.set(rc={'figure.figsize':(100,8.27)})
 
 plt.xlabel("Project category")
 plt.ylabel("Number of projects")
