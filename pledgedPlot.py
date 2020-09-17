@@ -18,7 +18,7 @@ meanPledge = sumPledges / indivPledges
 
 # Q2: Generating histogram of average total pledges
 
-test = np.logspace(np.log10(1), np.log10(10**6), 25)
+test = np.logspace(np.log10(1), np.log10(10**7), 25)
 histPlot = sb.histplot(pledged, bins = test, stat='probability')
 
 
