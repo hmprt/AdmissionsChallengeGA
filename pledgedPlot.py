@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
+import seaborn as sb
 # Opening the CSV file with pandas, and writing to
 # data structures I can work with
 
@@ -28,6 +29,6 @@ plt.title("Distribution of Kickstarter Pledges")
 plt.xlabel("Total amount pledged in USD")
 plt.ylabel("Proportion of dataset")
 
-plt.savefig('pledgePlot.png')
+plt.savefig('output/pledgePlot.png')
 print("Saving to file...")
 plt.show()

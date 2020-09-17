@@ -20,5 +20,10 @@ test = np.logspace(np.log10(1), np.log10(10**5), 75 )
 histPlot = sb.histplot(backers, bins = test, stat = "probability")
 histPlot.set(xscale="log")
 
+plt.title("Distribution of Kickstarter Backers")
+plt.xlabel("Total amount of project backers")
+plt.ylabel("Proportion of dataset")
 
+plt.savefig('output/backersPlot.png')
+print("Saving to file...")
 plt.show()
